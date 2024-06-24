@@ -8,114 +8,123 @@
   </head>
   <body>
     <main>
-      <aside>
-        <div>
-          <figure>
-            <img src="#" alt="Anish Kumar Singh" width="80" />
-          </figure>
-          <div >
-            <h1 title="Anish Kumar Singh">Anish Kumar Singh</h1>
-  
-            <p >Full Stack Developer</p>
-          </div>
 
-          <button  data-sidebar-btn>
-            <span>Show Contacts</span>
-  
-            <ion-icon name="chevron-down"></ion-icon>
-          </button>
+      
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Anish Kumar Singh" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Anish Kumar Singh">Anish Kumar Singh</h1>
+
+          <p class="title">Full Stack Developer</p>
         </div>
 
-        <div>
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
 
-          <div></div>
-  
-          <ul >
-  
-            <li >
-  
-              <div >
-                <ion-icon ></ion-icon>
-              </div>
-  
-              <div >
-                <p >Email</p>
-  
-                <a href="mailto:anishsinghanish007@gmail.com" >anishsinghanish007@gmail.com</a>
-              </div>
-  
-            </li>
-  
-            <li >
-  
-              <div >
-                <ion-icon ></ion-icon>
-              </div>
-  
-              <div >
-                <p >Phone</p>
-  
-                <a href="tel:+917980161323" >+91 7980161323</a>
-              </div>
-  
-            </li>
-  
-            <li>
-  
-              <div >
-                <ion-icon ></ion-icon>
-              </div>
-  
-              <div>
-                <p >Birthday</p>
-  
-                <time datetime="1995-09-04">September 04, 1995</time>
-              </div>
-  
-            </li>
-  
-            <li >
-  
-              <div >
-                <ion-icon ></ion-icon>
-              </div>
-  
-              <div >
-                <p >Location</p>
-  
-                <address>Gurgoan, Haryana, India</address>
-              </div>
-  
-            </li>
-  
-          </ul>
-  
-  
-          <ul >
-  
-            <li >
-              <a href="#" >
-                <ion-icon name="logo-facebook"></ion-icon>
-              </a>
-            </li>
-  
-            <li >
-              <a href="#" >
-                <ion-icon name="logo-twitter"></ion-icon>
-              </a>
-            </li>
-  
-            <li >
-              <a href="#" >
-                <ion-icon name="logo-instagram"></ion-icon>
-              </a>
-            </li>
-  
-          </ul>
-  
-        </div>
-  
-      </aside>
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:anishsinghanish007@gmail.com" class="contact-link">anishsinghanish007@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+917980161323" class="contact-link">+91 7980161323</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1995-09-04">September 04, 1995</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Gurgoan, Haryana, India</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
     </main>
   </body>
 </html>
+
